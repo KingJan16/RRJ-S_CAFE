@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>RRJ'S CAFE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="abouth">
+      <nav>
+        <a href="index.html"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <!-- <i class="fa fa-times" aria-hidden="true" onclick="hideMenu"></i> -->
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="Orders.html">ORDERS</a></li>
+            <li><a href="">OUR CLASSES</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        <!-- <i class="fa fa-bars" aria-hidden="true" onclick="showMenu"></i> -->
+      </nav>
+      <div class="text-box">
+        <h1>CLASSES THAT WE OFFER</h1>
+      </div>
+    </section>
+
+    <!-- -------ABOUT US----- -->
+
+    <section class="Classes">
+      <h1></h1>
+      <p></p>
+      <div class="row">
+        <div class="classes-col">
+          <img src="images/beginner.jpg" />
+          <div class="layer">
+            <h3>Home Barista</h3>
+          </div>
+        </div>
+        <div class="classes-col">
+          <img src="images/brewing.jpg" />
+          <div class="layer">
+            <h3>Brewing Basic</h3>
+          </div>
+        </div>
+        <div class="classes-col">
+          <img src="images/latte art.jpg" />
+          <div class="layer">
+            <h3>Latte Art Class</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------ABOUT CLASSES------ -->
+    <section class="content">
+      <div class="row">
+        <div class="left">
+          <img src="images/expert.jpg" />
+        </div>
+        <div class="right">
+          <h3>HOME BARISTA</h3>
+          <p>
+            A home barista is someone who has a passion for making high-quality
+            coffee beverages at home. They invest in coffee equipment, such as
+            espresso machines and grinders, to replicate the coffeehouse
+            experience. Home baristas have knowledge and skills in coffee bean
+            selection, grinding, extraction, milk steaming, and latte art. They
+            experiment with different beans, roasts, and brewing methods to
+            achieve desired flavors. Home baristas can expand their skills
+            through online resources and communities. They enjoy sharing their
+            creations with others and can personalize their coffee experience
+            while saving money.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="content">
+      <div class="row">
+        <div class="left">
+          <img src="images/basic.jpg" />
+        </div>
+        <div class="right">
+          <h3>HOME BARISTA</h3>
+          <p>
+            In this course we will focus on understanding the fundamentals of what 
+            it takes to make delicious espresso, learning how to work to a recipe 
+            and adjusting your espresso grinder to achieve great results. You will 
+            get hands-on experience using both professional and home espresso machines, 
+            working on our Victoria Arduino Black Eagle and Sage Barista Pro machines. 
+            <br>
+          <p>We will also cover milk steaming technique, to achieve glossy, microfoam 
+            milk and look at lattes, flat whites and cappuccinos. There will even be some 
+            latte art practise, just for fun! We will also have time to chat about coffee, 
+            espresso machines and any other questions you may have.</p>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="content">
+      <div class="row">
+        <div class="left">
+          <img src="images/artclass.jpg" />
+        </div>
+        <div class="right">
+          <h3>LATTE ART CLASS</h3>
+          <p>Latte art is the technique of creating decorative designs on the 
+            surface of a latte or other espresso-based drinks. It involves pouring 
+            steamed milk into espresso and manipulating it to form patterns or shapes.
+            By controlling the milk flow and using tools, baristas create designs like 
+            hearts, rosettas, or tulips. It requires skill in milk steaming, pouring, 
+            and understanding the interaction between milk and espresso. Latte art adds visual
+             appeal to the coffee and requires practice to master.
+            
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------footer----- -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        <br />
+      </p>
+      <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+      </div>
+    </section>
+
+    <!----------JaveScript-------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>RRJ'S CAFE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+    src="https://kit.fontawesome.com/4e9eb475bc.js"
+    crossorigin="anonymous"
+  ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"> </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <!-- <i class="fa fa-times" aria-hidden="true" onclick="hideMenu"></i> -->
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="Orders.html">ORDERS</a></li>
+            <li><a href="OFFER.html">OUR CLASSES</a></li>
+            <li><a href="">CONTACT US</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        <!-- <i class="fa fa-bars" aria-hidden="true" onclick="showMenu"></i> -->
+      </nav>
+      <div class="text-box1">
+        <h1>CONTACT US NOW</h1>
+      </div>
+    </section>
+
+    
+
+    <!------Menu----->
+    <section class="cta">
+      <div class="icon1">
+       <a href="https://www.facebook.com/RRJSCAfe" target="_blank"> <i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/janna011608/" target="_blank"><i class="fa fa-instagram"></i></a>
+      
+      </div>
+    </section>
+    <!-- -------inq---- -->
+    <section class="inquiries" >
+      <H1>FOR INQUIRIES</H1>
+      <P>FOR INQUIRIES PLEASE SEND US MESSAGE</P>
+      
+    </section>
+
+     <!--------our cafe----->
+     <section>
+      <div class="hero">
+        <form>
+      <div class="row1">
+        <div class="input-group">
+          <input type="text" id="name" required />
+          <label for="name"><i class="fa-solid fa-user"></i> Your Name</label>
+        </div>
+        <div class="input-group">
+          <input type="text" id="number" required />
+          <label for="number"
+            ><i class="fa-solid fa-phone-square-alt"></i> Phone No.</label
+          >
+        </div>
+      </div>
+      
+        <div class="input-group">
+          <input type="text" id="name" required />
+          <label for="name"><i class="fa-solid fa-user"></i> Your Name</label>
+        </div>
+        <div class="input-group">
+          <input type="text" id="number" required />
+          <label for="number"
+            ><i class="fa-solid fa-phone-square-alt"></i> Phone No.</label
+          >
+        </div>
+        <div class="input-group">
+          <input type="email" id="email" required />
+          <label for="Email"><i class="fa-solid fa-envelope"></i> Email</label>
+        </div>
+        <div class="input-group">
+          <textarea id="message" rows="8" required></textarea>
+          <label for="message"
+            ><i class="fa-solid fa-comments"></i> Your Message</label
+          >
+        </div>
+        <button type="submit">
+          <i class="fa-solid fa-paper-plane"></i> Submit
+        </button>
+      </form>
+    </div>
+     </section>
+
+     
+
+    <!--------classes---->
+    
+
+    <!----------JaveScript-------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

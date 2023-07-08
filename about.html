@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>RRJ'S CAFE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="abouth">
+      <nav>
+        <a href="index.html"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <!-- <i class="fa fa-times" aria-hidden="true" onclick="hideMenu"></i> -->
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="Orders.html">ORDERS</a></li>
+            <li><a href="OFFER.html">OUR CLASSES</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="">ABOUT US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        <!-- <i class="fa fa-bars" aria-hidden="true" onclick="showMenu"></i> -->
+      </nav>
+      <div class="text-box">
+        <h1>ABOUT US</h1>
+      </div>
+    </section>
+    <section class="statement">
+    <p>
+      RRJ'S CAFE is an establishment that 
+    primarily serves coffee of various types, notably espresso, latte,
+    and cappuccino. Some coffeehouses may serve cold drinks, such as
+    iced coffee and iced tea, as well as other non-caffeinated beverages.
+    In continental Europe, cafés serve alcoholic drinks
+    
+    RRJ'S Cafe aim's to provide you a relaxing and comfortable place that
+    you can unwind while sipping you a cup of coffee due to a stressful day,
+    from your work. if you want some sweet or bread that can satisfy your day
+    RRJ'S CAFE also serve pastries and frappe.
+    </p> </section>
+
+    <!-- -------ABOUT US----- -->
+
+    <section class="about1">
+      <div class="row">
+        <div class="about1-col">
+          <h1>WE OFFER CLASSES RELATED TO COFFEE</h1>
+          <p>
+            A home barista refers to an individual who has a passion for
+            brewing and preparing coffee at home with a level of skill and
+            knowledge typically associated with professional baristas. 
+            A home barista takes the time to learn about different brewing methods, 
+            coffee beans, and extraction techniques to create high-quality coffee 
+            beverages in the comfort of their own home. They often invest in 
+            specialized equipment such as espresso machines, coffee grinders, and
+            various brewing tools to replicate the café experience. Home baristas may
+            experiment with different brewing recipes, latte art, and coffee beans from
+            around the world to refine their skills and create personalized coffee creations.
+           </p>
+           <br>
+           <p>A home barista class is a structured educational program or workshop designed to 
+            teach individuals the skills and techniques necessary to become proficient in brewing 
+            and preparing coffee at home. These classes are typically conducted by experienced 
+            baristas or coffee professionals and aim to provide participants with the knowledge 
+            and practical training required to achieve cafe-quality coffee in their own kitchens.
+           this includes:
+          <b> Coffee fundamentals,
+           Brewing method,
+           Espresso basics.
+           Milk frothing and latte art</p></b>
+
+             
+        </div>
+        <div class="about1-col">
+          <img src="images/barista.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!------Menu----->
+
+    <!-- -------footer----- -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        
+      </p>
+      <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+      </div>
+    </section>
+
+    <!----------JaveScript-------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

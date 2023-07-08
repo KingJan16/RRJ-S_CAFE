@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+  <title>RRJ'S CAFE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+    <title>Orders</title>
+    <link rel="stylesheet" href="orderstyle.css">
+</head>
+<body class="">
+    <section class="sub-header">
+        <nav>
+          <a href="index.html"></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <!-- <i class="fa fa-times" aria-hidden="true" onclick="hideMenu"></i> -->
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="menu.html">MENU</a></li>
+              <li><a href="">ORDERS</a></li>
+              <li><a href="OFFER.html">OUR CLASSES</a></li>
+              <li><a href="contact.html">CONTACT US</a></li>
+              <li><a href="about.html">ABOUT US</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+          <!-- <i class="fa fa-bars" aria-hidden="true" onclick="showMenu"></i> -->
+        </nav>
+        <div class="text-box">
+          <h1>ORDER HERE</h1>
+        </div>
+      </section>
+    
+    <div class="container">
+        <header>
+            <h1>Your Orders</h1>
+            <div class="shopping">
+                <img src="image/shopping.svg">
+                <span class="quantity">0</span>
+            </div>
+        </header>
+
+        <div class="list">
+          
+        </div>
+    </div>
+    <div class="card">
+        <h1>ORDERS</h1>
+        <ul class="listCard">
+        </ul>
+        <div class="checkOut">
+            <div class="total">0</div>
+            <div class="closeShopping">Close</div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>RRJ'S CAFE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"> </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <!-- <i class="fa fa-times" aria-hidden="true" onclick="hideMenu"></i> -->
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="Orders.html">ORDERS</a></li>
+            <li><a href="OFFER.html">OUR CLASSES</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        <!-- <i class="fa fa-bars" aria-hidden="true" onclick="showMenu"></i> -->
+      </nav>
+      <div class="text-box">
+        <h1>RRJ"S CAFE</h1>
+        <p></p>
+        <a href="menu.html" class="hero-btn">Take a look in our coffee</a>
+      </div>
+    </section>
+
+    <!------Menu----->
+
+    <section class="Menu">
+      <h1>Our Menu</h1>
+      
+
+      <div class="row">
+        <div class="Menu-col">
+          <img src="images/Cappuccino.jpg" />
+          <h3>Cappuccino</h3>
+          <p></p>
+        </div>
+        <div class="Menu-col">
+          <img src="images/irish cream coffee.jpeg" />
+          <h3>Irish Cream Coffee</h3>
+       
+        </div>
+        <div class="Menu-col">
+          <img src="images/black coffee.jpg" />
+          <h3>Black Coffee</h3>
+    
+        </div>
+        <div class="Menu-col">
+          <img src="images/hazel nut cappucino.png" />
+          <h3>Hazelnut Cappuccino</h3>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="today">
+      <h1>Today's Special</h1>
+      <p></p>
+
+      <div class="row">
+        <div class="today-col">
+          <img src="images/pumpkin spice latte.jpeg" />
+          <h3>Pumpkin Spice Latte</h3>
+         
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <div class="today-col">
+          <img src="images/espresso.jpg" />
+          <h3>Espresso</h3>
+          
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <div class="today-col">
+          <img src="images/cafe mocha.jpg" />
+          <h3>Cafe mocha</h3>
+      
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <div class="today-col">
+          <img src="images/affogato.jpg" />
+          <h3>Affogato</h3>
+      
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+      </div>
+    </section>
+
+    <!--------our cafe----->
+   
+
+    <!--------classes---->
+    <section class="Classes">
+      <h1>Our Classes</h1>
+      <p></p>
+      <div class="row">
+        <div class="classes-col">
+          <img src="images/beginner.jpg" />
+          <div class="layer">
+            <h3>Home Barista</h3>
+          </div>
+        </div>
+        <div class="classes-col">
+          <img src="images/brewing.jpg" />
+          <div class="layer">
+            <h3>Brewing Basic</h3>
+          </div>
+        </div>
+        <div class="classes-col">
+          <img src="images/latte art.jpg" />
+          <div class="layer">
+            <h3>Latte Art Class</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------About us----- -->
+
+    <section class="cta">
+      <h1>Enroll For Various Class</h1>
+      <a href="contact.html" class="hero-btn">Contact Us</a>
+    </section>
+
+    <!-- -------footer----- -->
+    <section class="footer">
+      
+      
+      <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+      </div>
+    </section>
+
+    <!----------JaveScript-------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
